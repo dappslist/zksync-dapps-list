@@ -15,6 +15,7 @@ export default {
 				'Lending',
 				'NFT',
 				'Stablecoin',
+				'DeFi (other)'
 			],
 		},
 	},

@@ -98,6 +98,20 @@ const projects = [
 		category: 'NFT',
 		img: require('@/assets/images/projects/zk-bored-apes.jpg'),
 		url: 'https://zkboredapes.com/'
+	},
+	{
+		id: 0,
+		title: 'zkMarkets',
+		category: 'NFT marketplace',
+		img: require('@/assets/images/projects/zkmarkets.png'),
+		url: 'https://www.zkmarkets.com/zksync-era'
+	},
+	{
+		id: 0,
+		title: 'Rhino.fi',
+		category: 'DeFi (other)',
+		img: require('@/assets/images/projects/rhino.jpg'),
+		url: 'https://app.rhino.fi/'
 	}
 ];
 
