@@ -10,8 +10,11 @@ export default {
 			type: Array,
 			default: () => [
 				'Web3 Social',
+				'Bridge',
 				'DEX',
 				'Lending',
+				'NFT',
+				'Stablecoin',
 			],
 		},
 	},
