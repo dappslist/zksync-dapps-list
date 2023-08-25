@@ -113,6 +113,33 @@ const projects = [
 		img: require('@/assets/images/projects/rhino.jpg'),
 		url: 'https://app.rhino.fi/'
 	}
+
+
+	,
+	{
+		id: 0,
+		title: 'Rubicon',
+		category: 'DEX',
+		img: require('@/assets/images/projects/rubicon.png'),
+		url: 'https://rubicon.finance/'
+	}
+	,
+	{
+		id: 0,
+		title: 'Sushi',
+		category: 'DEX',
+		img: require('@/assets/images/projects/sushi.png'),
+		url: 'https://www.sushi.com/'
+	}
+	,
+	{
+		id: 0,
+		title: 'Yearn.Finance',
+		category: 'DeFi (other)',
+		img: require('@/assets/images/projects/yearn-finance.png'),
+		url: 'https://yearn.finance/'
+	}
+	
 ];
 
 export default projects;
