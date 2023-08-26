@@ -112,56 +112,34 @@ const projects = [
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/rhino.jpg'),
 		url: 'https://app.rhino.fi/'
-	}
-
-
-	,
-	{
-		id: 0,
-		title: 'Debank',
-		category: 'Web3 Social',
-		img: require('@/assets/images/projects/debank.png'),
-		url: 'https://debank.com/'
-	}
-	,
+	},
 	{
 		id: 0,
 		title: 'Celer Network',
 		category: 'Bridge',
 		img: require('@/assets/images/projects/celer-network.png'),
-		url: 'https://celer.network/'
-	}
-	,
-	{
-		id: 0,
-		title: 'Poly Network',
-		category: 'Bridge',
-		img: require('@/assets/images/projects/poly-network.png'),
-		url: 'https://www.poly.network/#/'
-	}
-	,
+		url: 'https://cbridge.celer.network/10/324/ETH'
+	},
 	{
 		id: 0,
 		title: 'Orbiter Finance',
 		category: 'Bridge',
 		img: require('@/assets/images/projects/orbiter-finance.png'),
-		url: 'https://www.orbiter.finance/'
-	}
-	,
+		url: 'https://www.orbiter.finance/?source=Optimism&dest=zkSync%20Era'
+	},
 	{
 		id: 0,
 		title: 'Layerswap',
 		category: 'Bridge',
 		img: require('@/assets/images/projects/layerswap.png'),
-		url: 'https://www.layerswap.io/'
-	}
-	,
+		url: 'https://www.layerswap.io/app'
+	},
 	{
 		id: 0,
 		title: 'KyberSwap',
-		category: 'DeFi (other)',
+		category: 'DEX',
 		img: require('@/assets/images/projects/kyberswap.png'),
-		url: 'https://kyberswap.com/'
+		url: 'https://kyberswap.com/swap/zksync'
 	}
 	,
 	{
