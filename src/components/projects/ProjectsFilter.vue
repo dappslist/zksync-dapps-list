@@ -9,13 +9,20 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web3 Social',
+				'Betting',
 				'Bridge',
+				'DeFi (other)',
 				'DEX',
+				'Email',
+				'Gaming',
+				'Identity',
+				'Launchpad',
 				'Lending',
 				'NFT',
+				'Options',
+				'Perpetuals',
 				'Stablecoin',
-				'DeFi (other)'
+				'Web3 Social'
 			],
 		},
 	},
