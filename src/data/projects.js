@@ -151,7 +151,7 @@ const projects = [
 	{
 		id: 0,
 		title: 'KyberSwap',
-		category: 'DeFi (other)',
+		category: 'DEX',
 		img: require('@/assets/images/projects/kyberswap.png'),
 		url: 'https://kyberswap.com/swap/zksync'
 	}
