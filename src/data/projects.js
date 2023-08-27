@@ -112,32 +112,46 @@ const projects = [
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/rhino.jpg'),
 		url: 'https://app.rhino.fi/'
-	},
+	}
+
+
+	,
+	{
+		id: 0,
+		title: 'Debank',
+		category: 'Web3 Social',
+		img: require('@/assets/images/projects/debank.png'),
+		url: 'https://debank.com/'
+	}
+	,
 	{
 		id: 0,
 		title: 'Celer Network',
 		category: 'Bridge',
 		img: require('@/assets/images/projects/celer-network.png'),
-		url: 'https://cbridge.celer.network/10/324/ETH'
-	},
+		url: 'https://cbridge.celer.network/1/324/ETH'
+	}
+	,
 	{
 		id: 0,
 		title: 'Orbiter Finance',
 		category: 'Bridge',
 		img: require('@/assets/images/projects/orbiter-finance.png'),
-		url: 'https://www.orbiter.finance/?source=Optimism&dest=zkSync%20Era'
-	},
+		url: 'https://www.orbiter.finance/?source=Ethereum&dest=zkSync%20Era'
+	}
+	,
 	{
 		id: 0,
 		title: 'Layerswap',
 		category: 'Bridge',
 		img: require('@/assets/images/projects/layerswap.png'),
 		url: 'https://www.layerswap.io/app'
-	},
+	}
+	,
 	{
 		id: 0,
 		title: 'KyberSwap',
-		category: 'DEX',
+		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/kyberswap.png'),
 		url: 'https://kyberswap.com/swap/zksync'
 	}
@@ -147,7 +161,7 @@ const projects = [
 		title: 'Symbiosis',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/symbiosis.png'),
-		url: 'https://symbiosis.finance/'
+		url: 'https://app.symbiosis.finance/swap?chainIn=Ethereum&chainOut=ZkSync%20Era&tokenIn=ETH&tokenOut=ETH'
 	}
 	,
 	{
@@ -155,7 +169,7 @@ const projects = [
 		title: 'PancakeSwap',
 		category: 'DEX',
 		img: require('@/assets/images/projects/pancakeswap.png'),
-		url: 'https://pancakeswap.finance/'
+		url: 'https://pancakeswap.finance/swap?chain=zkSync'
 	}
 	,
 	{
@@ -163,7 +177,7 @@ const projects = [
 		title: 'SynFutures',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/synfutures.png'),
-		url: 'https://www.synfutures.com/'
+		url: 'https://trade.synfutures.com/#/trade'
 	}
 	,
 	{
@@ -179,7 +193,7 @@ const projects = [
 		title: 'SpaceFi',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/spacefi.png'),
-		url: 'https://spacefi.io/'
+		url: 'https://app.spacefi.io/#/home'
 	}
 	,
 	{
@@ -187,7 +201,7 @@ const projects = [
 		title: 'Crypto Maze',
 		category: 'NFT',
 		img: require('@/assets/images/projects/cryptomaze.png'),
-		url: 'https://cryptomaze.app/'
+		url: 'https://race.cryptomaze.app/'
 	}
 	,
 	{
@@ -195,7 +209,7 @@ const projects = [
 		title: 'DOMANI Protocol',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/domani.png'),
-		url: 'https://dapp.domani.finance/'
+		url: 'https://dapp.domani.finance/command-centre'
 	}
 	,
 	{
@@ -219,7 +233,7 @@ const projects = [
 		title: 'UniDex',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/unidex.png'),
-		url: 'https://www.unidex.exchange/'
+		url: 'https://app.unidex.exchange/#/324/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'
 	}
 	,
 	{
@@ -235,7 +249,7 @@ const projects = [
 		title: 'XY Finance',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/xy.png'),
-		url: 'https://xy.finance/'
+		url: 'https://app.xy.finance/'
 	}
 	,
 	{
@@ -243,7 +257,7 @@ const projects = [
 		title: 'OpenMeta',
 		category: 'NFT',
 		img: require('@/assets/images/projects/openmeta.png'),
-		url: 'https://nft.openmeta.finance/'
+		url: 'https://nft.openmeta.finance/#/home'
 	}
 	,
 	{
@@ -256,18 +270,10 @@ const projects = [
 	,
 	{
 		id: 0,
-		title: 'zkRock',
-		category: 'NFT',
-		img: require('@/assets/images/projects/zkrock.png'),
-		url: 'https://www.zkrock.xyz/#/'
-	}
-	,
-	{
-		id: 0,
 		title: 'Funkyland',
 		category: 'NFT',
 		img: require('@/assets/images/projects/funkyland.png'),
-		url: 'https://www.funkyland.org/'
+		url: 'https://app.funkyland.org/'
 	}
 	,
 	{
@@ -299,7 +305,7 @@ const projects = [
 		title: 'Maverick Protocol',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/mav.png'),
-		url: 'https://www.mav.xyz/'
+		url: 'https://app.mav.xyz/?chain=324'
 	}
 	,
 	{
@@ -307,15 +313,7 @@ const projects = [
 		title: 'zkSync Name Service',
 		category: 'NFT',
 		img: require('@/assets/images/projects/zkns.png'),
-		url: 'https://zkns.domains/'
-	}
-	,
-	{
-		id: 0,
-		title: 'Stratum Exchange',
-		category: 'DeFi (other)',
-		img: require('@/assets/images/projects/stratumexchange.png'),
-		url: 'https://stratumexchange.com/'
+		url: 'https://app.zkns.domains/'
 	}
 	,
 	{
@@ -339,7 +337,7 @@ const projects = [
 		title: 'Zomma Protocol',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/zomma.png'),
-		url: 'https://zomma.pro/'
+		url: 'https://app.zomma.pro/en/main/trade'
 	}
 	,
 	{
@@ -347,7 +345,7 @@ const projects = [
 		title: 'Deri Protocol',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/deri.png'),
-		url: 'https://deri.io/#/index'
+		url: 'https://deri.io/#/pro/trade/futures/ETHUSD'
 	}
 	,
 	{
@@ -355,7 +353,7 @@ const projects = [
 		title: 'Whisper',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/whispertools.png'),
-		url: 'https://whispertools.io/'
+		url: 'https://app.whispertools.io/'
 	}
 	,
 	{
@@ -379,7 +377,7 @@ const projects = [
 		title: 'Galoswap',
 		category: 'DEX',
 		img: require('@/assets/images/projects/galoswap.png'),
-		url: 'https://galoswap.io/'
+		url: 'https://app.galoswap.io/'
 	}
 	,
 	{
@@ -435,7 +433,7 @@ const projects = [
 		title: 'ZeroLend',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/zerolend.png'),
-		url: 'https://zerolend.xyz/'
+		url: 'https://app.zerolend.xyz/markets/'
 	}
 	,
 	{
@@ -443,7 +441,7 @@ const projects = [
 		title: 'Interport Finance',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/interport.png'),
-		url: 'https://interport.fi/'
+		url: 'https://app.interport.fi/1/324/ETH/ETH'
 	}
 	,
 	{
@@ -451,7 +449,7 @@ const projects = [
 		title: 'zkSwap Finance',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/zkswap.png'),
-		url: 'https://zkswap.finance/'
+		url: 'https://zkswap.finance/swap'
 	}
 	,
 	{
@@ -459,7 +457,7 @@ const projects = [
 		title: 'zkEra Finance',
 		category: 'DeFi (other)',
 		img: require('@/assets/images/projects/zkera.png'),
-		url: 'https://zkera.fi/'
+		url: 'https://app.zkera.fi/'
 	}
 
 ];
